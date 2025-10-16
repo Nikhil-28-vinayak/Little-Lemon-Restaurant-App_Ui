@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LilLemon</string>
+    <string name="title">Little Lemon</string>
+    <string name="location">Chicago</string>
+    <string name="description">Family-owned restaurant blending traditional Mediterranean recipes with a modern twist.
+        Authentic ingredients turn every meal into a celebration.</string>
+    <string name="orderbuttontext">Order Take Away</string>
+    <string name="special">Weekly Special</string>
+    <string name="content">The famous Greek Salad of crispy
+        lettuce, peppers, olives"</string>
+    <string name="description2">Italian pasta—where simplicity meets soulful flavor.</string>
+    <string name="Frechfries">Golden crispy French fries—small in size, big on satisfaction</string>
+    <string name="pizza">Spanish coca—rustic flatbread topped with vibrant veggies</string>
+    <string name="description3">Family-owned restaurant blending traditional Mediterranean recipes with a modern twist. Authentic ingredients and bold flavors turn every meal into a celebration of taste and tradition.
+    </string>
+    <string name="noodles">Slippery udon noodles swimming in savory miso broth.</string>
+    <string name="sprouts">Golden-crisp Brussels with herbs and ready to steal the spotlight</string>
+    <string name="pasta">A swirl of tradition and taste—Italian pasta is poetry on a plate</string>
+
+</resources>
