@@ -753,7 +753,7 @@ fun Panel3a(navController: NavHostController) {
                                         Card(
                                             onClick = {
                                                 imageName="img_19"
-                                                title="Vegetable Pasta"
+                                                title="Veggie Pasta"
                                                 price="$7.50"
                                                 navController.navigate(Order.route)},
                                             colors = CardDefaults.cardColors(Color.Gray),
@@ -768,7 +768,7 @@ fun Panel3a(navController: NavHostController) {
                                                     modifier = Modifier.width(300.dp)
                                                         .padding(end = 10.dp).clickable {}) {
                                                     Text(
-                                                        "Vegetable Pasta",
+                                                        "Veggie Pasta",
                                                         fontSize = 18.sp,
                                                         fontWeight = FontWeight.Bold
                                                     )
@@ -872,7 +872,7 @@ fun Panel3a(navController: NavHostController) {
                     Card(
                         onClick = {
                             imageName="img_22"
-                            title="Cheese Corn Pizza"
+                            title="Corn Pizza"
                             price="$19.02"
                             navController.navigate(Order.route)},
                         colors = CardDefaults.cardColors(Color.Gray),
@@ -885,7 +885,7 @@ fun Panel3a(navController: NavHostController) {
                                 modifier = Modifier.width(300.dp)
                                     .padding(end = 10.dp).clickable {}) {
                                 Text(
-                                    "Cheese Corn Pizza",
+                                    "Corn Pizza",
                                     fontSize = 18.sp,
                                     fontWeight = FontWeight.Bold
                                 )
@@ -910,7 +910,7 @@ fun Panel3a(navController: NavHostController) {
                         Card(
                             onClick = {
                                 imageName="img_23"
-                                title="Veg Pizza"
+                                title="Veggie Pizza"
                                 price="$20.0"
                                 navController.navigate(Order.route)},
                             colors = CardDefaults.cardColors(Color.Gray),
@@ -924,7 +924,7 @@ fun Panel3a(navController: NavHostController) {
                                     modifier = Modifier.width(300.dp)
                                         .padding(end = 10.dp).clickable {}) {
                                     Text(
-                                        "Veg Pizza",
+                                        "Veggie Pizza",
                                         fontSize = 18.sp,
                                         fontWeight = FontWeight.Bold
                                     )
@@ -992,7 +992,7 @@ fun Panel3a(navController: NavHostController) {
                                 Card(
                                     onClick = {
                                         imageName="img_25"
-                                        title="Cheese Burst Salad"
+                                        title="Cheese Pizza"
                                         price="$26.5"
                                         navController.navigate(Order.route)},
                                     colors = CardDefaults.cardColors(Color.Gray),
@@ -1006,7 +1006,7 @@ fun Panel3a(navController: NavHostController) {
                                             modifier = Modifier.width(300.dp)
                                                 .padding(end = 10.dp).clickable {}) {
                                             Text(
-                                                "Cheese Burst Salad",
+                                                "Cheese Pizza",
                                                 fontSize = 18.sp,
                                                 fontWeight = FontWeight.Bold
                                             )
