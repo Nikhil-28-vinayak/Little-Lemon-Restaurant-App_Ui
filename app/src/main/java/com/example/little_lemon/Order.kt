@@ -47,7 +47,7 @@ import kotlinx.coroutines.launch
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
-fun Order(image:String,text1: String, text2: String){
+fun Order(image:String,text1: String, text2: String, text3:String){
     val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)//create a drawerstate
     val snackbarHostState = remember { SnackbarHostState() }
     val scope = rememberCoroutineScope()
@@ -55,7 +55,7 @@ fun Order(image:String,text1: String, text2: String){
        Scaffold(
            topBar = {TopAppBar1(drawerState, scope)},
            snackbarHost = { SnackbarHost(snackbarHostState) },
-           content = {Order1(image,text1,text2, snackbarHostState, scope)}
+           content = {Order1(image,text1,text2,text3, snackbarHostState, scope)}
        )
     }
 }
@@ -64,6 +64,7 @@ fun Order1(
     image: String,
     text1: String,
     text2: String,
+    text3: String,
     snackbarHostState: SnackbarHostState,
     scope: CoroutineScope
 ):Int{
@@ -87,7 +88,7 @@ fun Order1(
            )
        }
        Text(
-           stringResource(R.string.content),
+           "$text3",
            modifier = Modifier.padding(top = 10.dp, start = 10.dp, bottom = 20.dp),
            fontSize = 20.sp
        )
@@ -156,7 +157,7 @@ fun Order1(
 @Preview
 @Composable
 fun sjnjn(){
-    Order("greekSalad","GreekSalad","12.99")
+    Order("greekSalad","GreekSalad","12.99","hhj")
 }
 
 @Composable

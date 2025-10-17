@@ -41,6 +41,7 @@ class MainActivity : ComponentActivity() {
 var imageName: String=""
 var title: String=""
 var price:String=""
+var description:String=""
 @Composable
 fun MyNavigation(){
     val navController= rememberNavController()
@@ -58,7 +59,7 @@ fun MyNavigation(){
             MenuList(navController)
         }
         composable(Order.route) {
-            Order(imageName,title,price)
+            Order(imageName,title,price,description)
         }
     }
 }

@@ -196,6 +196,7 @@ fun Panel3a(navController: NavHostController) {
                     imageName="greeksalad"
                     title="Greek Salad"
                     price="$12.99"
+                    description="A dish is a harmonious blend of ingredients, flavors, and textures crafted to nourish, delight, and express culture."
                     navController.navigate(Order.route)},
                 colors = CardDefaults.cardColors(Color.Gray),
                 shape = RectangleShape,
@@ -229,6 +230,7 @@ fun Panel3a(navController: NavHostController) {
                         imageName="img_8"
                         title="Chinese Salad"
                         price="$16.9"
+                        description="The famous Greek Salad of crispy lettuce, peppers, olives"
                         navController.navigate(Order.route)},
                     colors = CardDefaults.cardColors(Color.Gray),
                     shape = RectangleShape
@@ -261,6 +263,7 @@ fun Panel3a(navController: NavHostController) {
                             imageName="img_9"
                             title="Mix Salad"
                             price="$25.9"
+                            description="The famous Greek Salad of crispy lettuce, peppers, olives"
                             navController.navigate(Order.route)},
                         colors = CardDefaults.cardColors(Color.Gray),
                         shape = RectangleShape
@@ -509,6 +512,7 @@ fun Panel3a(navController: NavHostController) {
                         imageName="img_14"
                         title="Italian Pasta"
                         price="$14.27"
+                        description="The famous Greek Salad of crispy lettuce, peppers, olives"
                         navController.navigate(Order.route)},
                     colors = CardDefaults.cardColors(Color.Gray),
                     shape = RectangleShape
@@ -755,6 +759,7 @@ fun Panel3a(navController: NavHostController) {
                                                 imageName="img_19"
                                                 title="Veggie Pasta"
                                                 price="$7.50"
+                                                description="The famous Greek Salad of crispy lettuce, peppers, olives"
                                                 navController.navigate(Order.route)},
                                             colors = CardDefaults.cardColors(Color.Gray),
                                             shape = RectangleShape
@@ -912,6 +917,7 @@ fun Panel3a(navController: NavHostController) {
                                 imageName="img_23"
                                 title="Veggie Pizza"
                                 price="$20.0"
+                                description="The famous Greek Salad of crispy lettuce, peppers, olives"
                                 navController.navigate(Order.route)},
                             colors = CardDefaults.cardColors(Color.Gray),
                             shape = RectangleShape
@@ -951,6 +957,7 @@ fun Panel3a(navController: NavHostController) {
                                     imageName="img_24"
                                     title="Italian Pizza"
                                     price="$24.95"
+                                    description="The famous Greek Salad of crispy lettuce, peppers, olives"
                                     navController.navigate(Order.route)},
                                 colors = CardDefaults.cardColors(Color.Gray),
                                 shape = RectangleShape
@@ -1172,6 +1179,7 @@ fun Panel3a(navController: NavHostController) {
                     onClick = {imageName="img_28"
                                title="Masala Fries"
                                price="10.07"
+                               description="The famous Greek Salad of crispy lettuce, peppers, olives"
                         navController.navigate(Order.route)},
                     colors = CardDefaults.cardColors(Color.Gray),
                     shape = RectangleShape
@@ -1209,6 +1217,7 @@ fun Panel3a(navController: NavHostController) {
                         onClick = {imageName="img_29"
                             title="Staffed Fries"
                             price="$15.02"
+                            description="The famous Greek Salad of crispy lettuce, peppers, olives"
                             navController.navigate(Order.route)},
                         colors = CardDefaults.cardColors(Color.Gray),
                         shape = RectangleShape
@@ -1284,6 +1293,7 @@ fun Panel3a(navController: NavHostController) {
                                 onClick = {imageName="img_31"
                                     title="Spicy Fries"
                                     price="$13.95"
+                                    description="The famous Greek Salad of crispy lettuce, peppers, olives"
                                     navController.navigate(Order.route)},
                                 colors = CardDefaults.cardColors(Color.Gray),
                                 shape = RectangleShape
