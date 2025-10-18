@@ -196,7 +196,8 @@ fun Panel3a(navController: NavHostController) {
                     imageName="greeksalad"
                     title="Greek Salad"
                     price="$12.99"
-                    description="A dish is a harmonious blend of ingredients, flavors, and textures crafted to nourish, delight, and express culture."
+                    description="Greek salad combines crisp cucumbers, juicy tomatoes, briny olives, " +
+                            "sharp red onions, and creamy feta cheese, all tossed in a zesty olive oil and oregano dressing for a refreshing experience."
                     navController.navigate(Order.route)},
                 colors = CardDefaults.cardColors(Color.Gray),
                 shape = RectangleShape,
@@ -219,6 +220,8 @@ fun Panel3a(navController: NavHostController) {
                         painter = painterResource(R.drawable.greeksalad),
                         contentDescription = "Greek Salad",
                         modifier = Modifier.size(100.dp)
+
+
                     )
                 }
                 HorizontalDivider(
@@ -230,7 +233,7 @@ fun Panel3a(navController: NavHostController) {
                         imageName="img_8"
                         title="Chinese Salad"
                         price="$16.9"
-                        description="The famous Greek Salad of crispy lettuce, peppers, olives"
+                        description="The famous Chinese Salad of crispy lettuce, peppers, olives"
                         navController.navigate(Order.route)},
                     colors = CardDefaults.cardColors(Color.Gray),
                     shape = RectangleShape
@@ -263,7 +266,7 @@ fun Panel3a(navController: NavHostController) {
                             imageName="img_9"
                             title="Mix Salad"
                             price="$25.9"
-                            description="The famous Greek Salad of crispy lettuce, peppers, olives"
+                            description="The famous Mix Salad of crispy lettuce, olives with a refreshing experience."
                             navController.navigate(Order.route)},
                         colors = CardDefaults.cardColors(Color.Gray),
                         shape = RectangleShape
