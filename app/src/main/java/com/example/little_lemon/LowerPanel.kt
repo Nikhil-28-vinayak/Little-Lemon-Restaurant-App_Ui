@@ -35,6 +35,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
@@ -57,7 +58,7 @@ fun WeeklySpecial(){
 
 
 @Composable
-fun MenuDish() {
+fun MenuDish(navController: NavController) {
     LazyColumn() {
         item {
             Card(
