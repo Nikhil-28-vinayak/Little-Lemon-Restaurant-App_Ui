@@ -264,9 +264,9 @@ fun Panel3a(navController: NavHostController) {
                     Card(
                         onClick = {
                             imageName="img_9"
-                            title="Mix Salad"
+                            title="Tossed Salad"
                             price="$25.9"
-                            description="The famous Mix Salad of crispy lettuce, olives with a refreshing experience."
+                            description="The famous Tossed Salad of crispy, olives with a refreshing experience."
                             navController.navigate(Order.route)},
                         colors = CardDefaults.cardColors(Color.Gray),
                         shape = RectangleShape
@@ -277,7 +277,7 @@ fun Panel3a(navController: NavHostController) {
                             Column(
                                 modifier = Modifier.width(300.dp)
                                     .padding(end = 10.dp).clickable {}) {
-                                Text("Mix Salad", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                                Text("Tossed Salad", fontSize = 18.sp, fontWeight = FontWeight.Bold)
                                 Text(
                                     androidx.compose.ui.res.stringResource(R.string.content),
                                     color = Color.Gray,
@@ -300,7 +300,9 @@ fun Panel3a(navController: NavHostController) {
                             onClick = {
                                 imageName="img_10"
                                 title="Mexican Salad"
-                                price="$16"
+                                price="$9.5"
+                                description="Mexican salad bursts with bold flavors from black beans, sweet corn, creamy avocado, juicy tomatoes, crunchy lettuce, and a tangy " +
+                                        "lime-cilantro dressing that brings it all together in a bowl."
                                 navController.navigate(Order.route)},
                             colors = CardDefaults.cardColors(Color.Gray),
                             shape = RectangleShape
@@ -322,7 +324,7 @@ fun Panel3a(navController: NavHostController) {
                                         color = Color.Gray,
                                         modifier = Modifier.padding(top = 5.dp, bottom = 5.dp)
                                     )
-                                    Text("$16", color = Color.Gray, fontWeight = FontWeight.Bold)
+                                    Text("$9.5", color = Color.Gray, fontWeight = FontWeight.Bold)
                                 }
                                 Spacer(modifier = Modifier.weight(1f))
                                 Image(
@@ -338,8 +340,12 @@ fun Panel3a(navController: NavHostController) {
                             Card(
                                 onClick = {
                                     imageName="img_11"
-                                    title="Desi Salad"
+                                    title="Indian Salad"
                                     price="$15.5"
+                                    description="Indian salad is a vibrant medley of crisp cucumbers, juicy tomatoes, " +
+                                            "finely chopped onions, and fresh coriander leaves, all " +
+                                            "tossed with a zesty mix of lemon juice, salt, and chili, delivering a refreshing crunch " +
+                                            "with a spicy, tangy kick that complements any traditional meal."
                                     navController.navigate(Order.route)},
                                 colors = CardDefaults.cardColors(Color.Gray),
                                 shape = RectangleShape
@@ -352,7 +358,7 @@ fun Panel3a(navController: NavHostController) {
                                         modifier = Modifier.width(300.dp)
                                             .padding(end = 10.dp).clickable {}) {
                                         Text(
-                                            "Desi Salad",
+                                            "Indian Salad",
                                             fontSize = 18.sp,
                                             fontWeight = FontWeight.Bold
                                         )
@@ -381,8 +387,10 @@ fun Panel3a(navController: NavHostController) {
                                 Card(
                                     onClick = {
                                         imageName="img_12"
-                                        title="Continental Salad"
-                                        price="$10.5"
+                                        title="Western Salad"
+                                        price="$10.0"
+                                        description="Western salad features a colorful mix of lettuce, cherry tomatoes, cucumbers, bell peppers, and shredded cheese,"+
+                                        "topped with creamy ranch or vinaigrette for a classic, hearty crunch"
                                         navController.navigate(Order.route)},
                                     colors = CardDefaults.cardColors(Color.Gray),
                                     shape = RectangleShape
@@ -395,7 +403,7 @@ fun Panel3a(navController: NavHostController) {
                                             modifier = Modifier.width(300.dp)
                                                 .padding(end = 10.dp).clickable {}) {
                                             Text(
-                                                "Continental Salad",
+                                                "Western Salad",
                                                 fontSize = 18.sp,
                                                 fontWeight = FontWeight.Bold
                                             )
@@ -408,7 +416,7 @@ fun Panel3a(navController: NavHostController) {
                                                 )
                                             )
                                             Text(
-                                                "$10.5",
+                                                "$10.0",
                                                 color = Color.Gray,
                                                 fontWeight = FontWeight.Bold
                                             )
