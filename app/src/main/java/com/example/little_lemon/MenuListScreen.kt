@@ -594,8 +594,9 @@ fun Panel3a(navController: NavHostController) {
                         Card(
                             onClick = {
                                 imageName="img_16"
-                                title="Pink Sauce Pasta"
-                                price="$20.9"
+                                title="Rose Pasta"
+                                price="$20.65"
+                                description="Blushing with creamy tomato elegance, rose pasta swirls comfort and charm "
                                 navController.navigate(Order.route)},
                             colors = CardDefaults.cardColors(Color.Gray),
                             shape = RectangleShape
@@ -608,7 +609,7 @@ fun Panel3a(navController: NavHostController) {
                                     modifier = Modifier.width(300.dp)
                                         .padding(end = 10.dp).clickable {}) {
                                     Text(
-                                        "Pink Sauce Pasta",
+                                        "Rose Pasta",
                                         fontSize = 18.sp,
                                         fontWeight = FontWeight.Bold
                                     )
@@ -617,7 +618,7 @@ fun Panel3a(navController: NavHostController) {
                                         color = Color.Gray,
                                         modifier = Modifier.padding(top = 5.dp, bottom = 5.dp)
                                     )
-                                    Text("$20.9", color = Color.Gray, fontWeight = FontWeight.Bold)
+                                    Text("$20.65", color = Color.Gray, fontWeight = FontWeight.Bold)
                                 }
                                 Spacer(modifier = Modifier.weight(1f))
                                 Image(
@@ -677,9 +678,11 @@ fun Panel3a(navController: NavHostController) {
                                 )
                                 Card(
                                     onClick = {
-                                        imageName="img_20"
-                                        title="Double Cheese Pasta"
-                                        price="$15.5"
+                                        imageName="img_56"
+                                        title="Cheese Pasta"
+                                        price="$17.50"
+                                        description="Cheese pasta wraps every noodle in a molten blanket of gooey, richness pure comfort in every creamy twirl. " +
+                                                "With each forkful, velvety strands stretch and cascade of bubbling cheddar. "
                                         navController.navigate(Order.route)},
                                     colors = CardDefaults.cardColors(Color.Gray),
                                     shape = RectangleShape
@@ -692,7 +695,7 @@ fun Panel3a(navController: NavHostController) {
                                             modifier = Modifier.width(300.dp)
                                                 .padding(end = 10.dp).clickable {}) {
                                             Text(
-                                                "Double Cheese Pasta",
+                                                "Cheese Pasta",
                                                 fontSize = 18.sp,
                                                 fontWeight = FontWeight.Bold
                                             )
@@ -705,14 +708,14 @@ fun Panel3a(navController: NavHostController) {
                                                 )
                                             )
                                             Text(
-                                                "$15.5",
+                                                "$17.50",
                                                 color = Color.Gray,
                                                 fontWeight = FontWeight.Bold
                                             )
                                         }
                                         Spacer(modifier = Modifier.weight(1f))
                                         Image(
-                                            painter = painterResource(R.drawable.img_20),
+                                            painter = painterResource(R.drawable.img_56),
                                             contentDescription = "Greek Salad",
                                             modifier = Modifier.size(100.dp)
                                         )
@@ -725,7 +728,8 @@ fun Panel3a(navController: NavHostController) {
                                         onClick = {
                                             imageName="img_18"
                                             title="Green Pasta"
-                                            price="$18.5"
+                                            price="$18.55"
+                                            description="A garden-fresh swirl of basil and spinach"
                                             navController.navigate(Order.route)},
                                         colors = CardDefaults.cardColors(Color.Gray),
                                         shape = RectangleShape
@@ -752,7 +756,7 @@ fun Panel3a(navController: NavHostController) {
                                                     )
                                                 )
                                                 Text(
-                                                    "$18.5",
+                                                    "$18.55",
                                                     color = Color.Gray,
                                                     fontWeight = FontWeight.Bold
                                                 )
@@ -772,8 +776,8 @@ fun Panel3a(navController: NavHostController) {
                                             onClick = {
                                                 imageName="img_19"
                                                 title="Veggie Pasta"
-                                                price="$7.50"
-                                                description="The famous Greek Salad of crispy lettuce, peppers, olives"
+                                                price="$19.50"
+                                                description="Bursting with color and veggie pasta twirls fresh goodness into every vibrant"
                                                 navController.navigate(Order.route)},
                                             colors = CardDefaults.cardColors(Color.Gray),
                                             shape = RectangleShape
@@ -800,7 +804,7 @@ fun Panel3a(navController: NavHostController) {
                                                         )
                                                     )
                                                     Text(
-                                                        "$7.50",
+                                                        "$19.50",
                                                         color = Color.Gray,
                                                         fontWeight = FontWeight.Bold
                                                     )
