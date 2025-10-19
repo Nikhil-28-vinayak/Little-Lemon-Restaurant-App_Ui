@@ -897,6 +897,9 @@ fun Panel3a(navController: NavHostController) {
                             imageName="img_22"
                             title="Corn Pizza"
                             price="$19.02"
+                            description="Sweet bursts of golden corn dance atop a bed of molten cheese and " +
+                                    "tangy tomato sauce, nestled on a crisp,fire-kissed crust each slice a warm, " +
+                                    "sunny bite of comfort and crunch"
                             navController.navigate(Order.route)},
                         colors = CardDefaults.cardColors(Color.Gray),
                         shape = RectangleShape
@@ -935,7 +938,7 @@ fun Panel3a(navController: NavHostController) {
                                 imageName="img_23"
                                 title="Veggie Pizza"
                                 price="$20.0"
-                                description="The famous Greek Salad of crispy lettuce, peppers, olives"
+                                description="The famous Veggie Pizza of crispy lettuce, peppers, olives and pizza sauce"
                                 navController.navigate(Order.route)},
                             colors = CardDefaults.cardColors(Color.Gray),
                             shape = RectangleShape
@@ -975,7 +978,8 @@ fun Panel3a(navController: NavHostController) {
                                     imageName="img_24"
                                     title="Italian Pizza"
                                     price="$24.95"
-                                    description="The famous Greek Salad of crispy lettuce, peppers, olives"
+                                    description="Italian pizza is a rustic masterpiece thin, fire kissed layered with tangy tomato, " +
+                                            "and a symphony of fresh herbs "
                                     navController.navigate(Order.route)},
                                 colors = CardDefaults.cardColors(Color.Gray),
                                 shape = RectangleShape
