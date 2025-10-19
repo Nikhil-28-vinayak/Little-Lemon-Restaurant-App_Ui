@@ -555,8 +555,9 @@ fun Panel3a(navController: NavHostController) {
                     Card(
                         onClick = {
                             imageName="img_15"
-                            title="White Sauce Pasta"
-                            price="$20.00"
+                            title="Pasta Alfredo"
+                            price="$20.0"
+                            description="Silky strands bathed in a luscious white sauce, this pasta melts comfort ."
                             navController.navigate(Order.route)},
                         colors = CardDefaults.cardColors(Color.Gray),
                         shape = RectangleShape
@@ -568,7 +569,7 @@ fun Panel3a(navController: NavHostController) {
                                 modifier = Modifier.width(300.dp)
                                     .padding(end = 10.dp).clickable {}) {
                                 Text(
-                                    "White Sauce Pasta",
+                                    "Pasta Alfredo",
                                     fontSize = 18.sp,
                                     fontWeight = FontWeight.Bold
                                 )
@@ -577,7 +578,7 @@ fun Panel3a(navController: NavHostController) {
                                     color = Color.Gray,
                                     modifier = Modifier.padding(top = 5.dp, bottom = 5.dp)
                                 )
-                                Text("$20.00", color = Color.Gray, fontWeight = FontWeight.Bold)
+                                Text("$20.0", color = Color.Gray, fontWeight = FontWeight.Bold)
                             }
                             Spacer(modifier = Modifier.weight(1f))
                             Image(
@@ -634,6 +635,8 @@ fun Panel3a(navController: NavHostController) {
                                     imageName="img_17"
                                     title="Macaroni"
                                     price="$26.05"
+                                    description="Golden curls of comfort, macaroni cradles creamy dreams, soaking up buttery warmth and " +
+                                            "cheesy whispers in every tender bite. Each spoonful wraps you in a embrace, where nostalgia meets "
                                     navController.navigate(Order.route)},
                                 colors = CardDefaults.cardColors(Color.Gray),
                                 shape = RectangleShape

@@ -62,7 +62,7 @@ fun Main(navController: NavHostController) {
                 content = { padding ->
                     Column(modifier = Modifier.padding(padding)) {
                         UpperPanel1(snackbarHostState, scope, navController)
-                        LowerPanel()
+                        LowerPanel(navController)
                     }
                 }
             )
@@ -92,7 +92,7 @@ fun Main(navController: NavHostController) {
                 content = { padding ->
                     Row(modifier = Modifier.padding(padding)) {
                         UpperPanel2(snackbarHostState, scope,navController)
-                        LowerPanel()
+                        LowerPanel(navController)
                     }
                 }
             )

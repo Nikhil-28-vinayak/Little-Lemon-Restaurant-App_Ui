@@ -40,10 +40,10 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
 @Composable
-fun LowerPanel() {
+fun LowerPanel(navController: NavController) {
     Column {
         WeeklySpecial()
-        MenuDish()
+        MenuDish(navController)
     }
 }
 
@@ -211,8 +211,8 @@ fun MenuDish(navController: NavController) {
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-fun LowerPanelPreview(){
-    LowerPanel()
-}
+//@Preview(showBackground = true)
+//@Composable
+//fun LowerPanelPreview(){
+//    LowerPanel()
+//}
